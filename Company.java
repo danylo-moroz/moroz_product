@@ -2,8 +2,11 @@ public class Company
 {
     private ArrayList<Product> products;
     
-    public Company()
+    private String name;
+
+    public Company(String name)
     {
         products = new ArrayList<>();
+	this.name = name;
     }
 }
