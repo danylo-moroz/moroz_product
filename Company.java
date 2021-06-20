@@ -1,9 +1,9 @@
 public class Company
 {
-    private ArrayList<Product> products;
+    private TreeSet<Product> products;
     
     public Company()
     {
-        products = new ArrayList<>();
+        products = new Treeset<>();
     }
 }
