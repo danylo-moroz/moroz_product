@@ -2,9 +2,12 @@ public ckass Product
 {
  private String name;
 
- public Product(String name)
+ private boolean onStock;
+
+ public Product(String name, boolean anStock)
  {
   setName(name);
+  setOnStock(onStock);
  }
 
  public String name()
@@ -15,5 +18,15 @@ public ckass Product
  public void setName(String name)
  {
    this.name = name;
+ }
+
+ public boolean getOnStock()
+ {
+   return onStock;
+ }
+
+ public void setOnStock(boolean onStock)
+ {
+  this.onStock = onStock;
  }
 }
