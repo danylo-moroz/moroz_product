@@ -5,12 +5,12 @@ public class Product
  private float price;
 
 
- private boolean onStock;
+ private int id;
 
- public Product(String name, boolean anStock float price)
+ public Product(String name, int id, float price)
  {
   setName(name);
-  setOnStock(onStock);
+  setId(id);
   setPrice(price);
  }
 
@@ -25,14 +25,14 @@ public class Product
  }
 
 
- public boolean getOnStock()
+ public int getId()
  {
-   return onStock;
+   return id;
  }
 
- public void setOnStock(boolean onStock)
+ public void setId (int id)
  {
-  this.onStock = onStock;
+  this.id = id;
  }
 
     
@@ -43,7 +43,7 @@ public class Product
     
 public void setPrice(float Price)
 {
-    this.price = price;
-}
+	this.price = price;
+ }
 
 }
