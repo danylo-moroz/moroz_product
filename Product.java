@@ -1,10 +1,13 @@
-public ckass Product
+public class Product
 {
  private String name;
+ 
+ private float price;
 
- public Product(String name)
+ public Product(String name, float price)
  {
   setName(name);
+  setPrice(price);
  }
 
  public String name()
@@ -16,4 +19,14 @@ public ckass Product
  {
    this.name = name;
  }
+    
+ public float getPrice()
+ {
+     return price;
+ }
+    
+public void setPrice(float Price)
+{
+    this.price = price;
+}
 }

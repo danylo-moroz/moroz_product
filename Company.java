@@ -1,12 +1,12 @@
 public class Company
 {
-    private ArrayList<Product> products;
+    private LinkedList<Product> products;
     
     private String name;
 
     public Company(String name)
     {
-        products = new ArrayList<>();
-	this.name = name;
+      products = new LinkedList<>();
+	  this.name = name;
     }
 }
