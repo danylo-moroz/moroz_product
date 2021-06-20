@@ -1,16 +1,20 @@
-public ckass Product
+public class Product
 {
  private String name;
+ 
+ private float price;
+
 
  private boolean onStock;
 
- public Product(String name, boolean anStock)
+ public Product(String name, boolean anStock float price)
  {
   setName(name);
   setOnStock(onStock);
+  setPrice(price);
  }
 
- public String name()
+ public String getName()
  {
    return name;
  }
@@ -19,6 +23,7 @@ public ckass Product
  {
    this.name = name;
  }
+
 
  public boolean getOnStock()
  {
@@ -29,4 +34,16 @@ public ckass Product
  {
   this.onStock = onStock;
  }
+
+    
+ public float getPrice()
+ {
+     return price;
+ }
+    
+public void setPrice(float Price)
+{
+    this.price = price;
+}
+
 }
